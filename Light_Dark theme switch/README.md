@@ -1,16 +1,34 @@
-# themescreen
+# 🌙 Flutter Dark Mode Toggle with Clean UI  
 
-A new Flutter project.
+This repository demonstrates how to implement **Dark Mode** in a Flutter app with a clean and modern UI. The app uses **Provider** for state management, ensuring a seamless switch between light and dark themes. Perfect for developers looking to enhance their Flutter app's UX/UI! 🚀  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📸 Preview  
 
-A few resources to get you started if this is your first Flutter project:
+| Light Mode | Dark Mode |  
+|------------|-----------|  
+| ![Light Mode Screenshot](screenshots/light_theme.png) | ![Dark Mode Screenshot](screenshots/dark_theme.png) |  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Features  
+
+- **Dynamic Theme Switching**  
+  Toggle between light and dark modes instantly.  
+- **State Management with Provider**  
+  Efficient and scalable state handling.  
+- **Clean UI Design**  
+  Responsive and visually appealing interface.  
+- **Fully Customizable**  
+  Extendable for your own app’s requirements.  
+
+---
+
+## 🏗️ Project Structure  
+
+```plaintext
+lib/
+├── main.dart           # App entry point
+├── theme_provider.dart # Handles theme switching logic
+└── home_screen.dart    # Contains the UI for the home screen
